@@ -1,0 +1,42 @@
+/*!
+ * Zyus css v1.0 
+ * Copyright 2014 
+ */
+
+.body-wraper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.register-zone, .list_users-zone {
+	width: 100%;
+}
+.register-zone li{
+	margin: 25px;    
+	list-style: none outside none;
+}
+input[type="url"],input[type="text"],input[type="email"]{
+	width: 210px;
+	line-height: 24px;
+	height: 28px;
+	padding: 0 !important;
+}
+input[type="submit"]{
+	padding: 5px;
+	float: right;
+}
+span.req_field{
+	color: red;
+}
+.form-warning-width{
+	min-width: 210px;
+    width: 40%;
+    max-width: 400px;
+}
+li.submit-width{
+	width: 210px;
+}
+.top-success-box{
+	margin-top: 20px;
+}
+
