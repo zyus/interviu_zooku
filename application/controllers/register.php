@@ -58,7 +58,7 @@ class Register extends CI_Controller {
             //if the validation is correct we register the user
 			$this->register_model->register();
             $data['registration_success'] = '
-                <div class="alert alert-success alert-dismissable">
+                <div class="alert alert-success alert-dismissable top-success-box">
                     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                     <strong>Registration Successful!</strong>
                 </div>';
