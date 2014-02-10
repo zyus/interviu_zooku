@@ -63,11 +63,6 @@ class Register extends CI_Controller {
                     <strong>Registration Successful!</strong>
                 </div>';
 		}
-            $data['registration_success'] = '
-                <div class="alert alert-success alert-dismissable top-success-box">
-                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                    <strong>Registration Successful!</strong>
-                </div>';
         //seting up page title
         $data['page_loaded']="register";
         $data['page_title'] = 'Register|Page';
